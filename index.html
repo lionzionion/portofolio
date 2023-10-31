@@ -175,6 +175,13 @@
             text-align: center;
             padding: 20px 0;
         }
+
+        /* Contact section styles */
+        #contact {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 40px;
+        }
     </style>
 </head>
 <body>
@@ -207,7 +214,7 @@
             <h3>Automatização de processos</h3>
             <p>Nesse projeto configurei a busca de dados do mercado financeiro, para que somente com o Ticker (é o código de uma ação), automaticamente resgata nos últimos seis meses as ações máximas, mínimas e atual, otimizando o trabalho que levaria cerca de duas horas para aproximadamente 10 segundos.</p>
         </div>
-        <div class "project">
+        <div class="project">
             <img src="project2.jpg" alt="Project 2">
             <h3>Gerador de orçamento em pdf.</h3>
             <p>Desenvolvi um projeto em Python que permite a entrada de informações, realiza cálculos e, por fim, gera um documento em formato PDF. Esse projeto é um gerador de orçamentos em PDF, que simplifica o processo de criar orçamentos, automatizando o cálculo dos resultados e fornecendo um documento profissional em PDF como saída.</p>
@@ -225,18 +232,18 @@
             <img src="certificate2.jpg" alt="Certificate 2" onclick="openModal(this.src);">
             <p>Python: Introdução à Linguagem</p>
         </div>
-        <!-- Add more certificates here -->
+        <!-- Add more certificates as needed -->
         <div class="certificate">
             <img src="certificate3.jpg" alt="Certificate 3" onclick="openModal(this.src);">
-            <p>Scientific Computing with Python</p>
+            <p>Certificate 3</p>
         </div>
         <div class="certificate">
             <img src="certificate4.jpg" alt="Certificate 4" onclick="openModal(this.src);">
-            <p>100 days of code: The Complete Python Pro Bootcamp fir 2023</p>
+            <p>Certificate 4</p>
         </div>
         <div class="certificate">
             <img src="certificate5.jpg" alt="Certificate 5" onclick="openModal(this.src);">
-            <p>Semana do Python na prática</p>
+            <p>Certificate 5</p>
         </div>
     </section>
 
@@ -258,7 +265,7 @@
         function openModal(imgSrc) {
             var modal = document.getElementById("myModal");
             var modalImg = document.getElementById("img01");
-            modal.style display = "block";
+            modal.style.display = "block";
             modalImg.src = imgSrc;
         }
 
